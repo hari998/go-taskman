@@ -1,13 +1,13 @@
 package main
 
-import (
-	// "fmt"
-	"os"
-	"taskman/internal/cli"
-)
+import "taskman/internal/root"
+
+// "fmt"
+// "os"
+// "taskman/internal/cli"
 
 func main() {
-	// fmt.Println("Task Manager is running...", os.Args)
-	cli.Run(os.Args[1:])
+	// cli.Run(os.Args[1:])
+	root.Execute()
 	// fmt.Println("Task Manager has finished running.")
 }
